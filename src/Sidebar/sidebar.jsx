@@ -61,7 +61,7 @@ const Line = styled.div`
 const Sidebar = ({ handleToast }) => {
 	// eslint-disable-next-line
 	const handleClipboardClick = () => {
-		navigator.clipboard.writeText('dannychukz15@gmail.com');
+		navigator.clipboard.writeText('claudio.antonio.cantonio@outlook.com');
 		handleToast(`Email copy to clipboard! 🥳`);
 		return;
 	};
@@ -95,7 +95,7 @@ const Sidebar = ({ handleToast }) => {
 				<Line />
 			</LeftSideContainer>
 			<RightSideContainer>
-				<SideText>dannychukz15@gmail.com</SideText>
+				<SideText>claudio.antonio.cantonio@outlook.com</SideText>
 				<Line />
 			</RightSideContainer>
 		</>
