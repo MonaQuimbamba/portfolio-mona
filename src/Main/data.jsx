@@ -4,48 +4,39 @@ export const dataExperience = {
             main: 'Web developer internship',
         },
         1: {
-            main: 'Network and computer security internship',
+            main: 'Network developer internship',
         },
 
     },
     info: {
         0: {
-            link: 'https://muzzlab.com/',
-            title: '@MuzzLab Technologies 🏢',
-            date: 'Mar 2018 - May 2020',
-            first: 'Muzzlab technologies is a design and development agency that passionately believes in business growth through technological transformation. We work with businesses and startups to help bring their digital product ideas to reality.',
-            second: 'I designed and created software solutions to solve pain points for various clients,',
-            third: 'Checked for feasibility of web/software prototypes and modified codes to fix errors',
+            link: 'https://engees.unistra.fr/',
+            date: 'May 2020 - july  2020',
+            first: 'Development of a web application that allows you to query and visualize environmental data from rivers in metropolitan France.',
+
         },
         1: {
-            link: 'https://www.canva.com/',
-            title: '@Canva Designer 🧑‍🎨',
-            date: 'Freelance | May 2018 - present',
-            first: "Designed and build Canva Posters for various clients.",
-            second: 'Currently working as a freelance designer',
-            third: 'Canva, Illustrator, After Effects, Pen + Paper, Figma',
+            link: 'https://l3i.univ-larochelle.fr/',
+            date: 'April 2021 - july 2021',
+            first: "Development of a mesh network of smart buoys, the transmission of messages in this network is carried out according to the LORA protocol",
+
         },
-        
+
     },
 };
 
 export const dataEducation = {
     0: {
-        main: 'Ogunlade College 🎓',
-        expand: 'Junior Secondary School',
-        date: '( 2009 / 2012 )',
-        country: 'Lagos',
+        main: 'IUT Robert Schuman 🎓',
+        expand: 'DUT Informatique ',
+        date: '( setp 2018 / june 2020 )',
+        country: 'France/ Strasbourg',
     },
     1: {
-        main: 'Komfota College 🎓',
-        expand: 'Science (Senior Secondary School)',
-        date: '( 2012 / 2014 )',
-        country: 'Lagos',
+        main: 'La Rochelle université 🎓',
+        expand: 'L3 Informatique',
+        date: '( setp 2020 / june 2021 )',
+        country: 'France/ La Rochelle',
     },
-    2: {
-        main: 'University of Benin 🎓',
-        expand: 'Bachelor of Engineering in Computer',
-        date: '( 2016 / Present )',
-        country: 'Nigeria',
-    },
+
 };
