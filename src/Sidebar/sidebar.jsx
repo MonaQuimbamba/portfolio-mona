@@ -61,7 +61,7 @@ const Line = styled.div`
 const Sidebar = ({ handleToast }) => {
 	// eslint-disable-next-line
 	const handleClipboardClick = () => {
-		navigator.clipboard.writeText('dannychukz15@gmail.com');
+		navigator.clipboard.writeText('claudio.antonio.cantonio@outlook.com');
 		handleToast(`Email copy to clipboard! 🥳`);
 		return;
 	};
@@ -70,32 +70,20 @@ const Sidebar = ({ handleToast }) => {
 		<>
 			<LeftSideContainer>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a
-						href='https://drive.google.com/file/d/1iUdfXirmVZJ58RKBDNnUGVGnmKsH7cKB/view?usp=sharing'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<FilePdf />
-					</a>
-				</SideIcon>
-				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+					<a href='https://github.com/MonaQuimbamba' target='_blank' rel='noopener noreferrer'>
 						<Github />
 					</a>
 				</SideIcon>
+
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
-						<Twitter />
-					</a>
-				</SideIcon>
-				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://www.linkedin.com/in/nwaobi-daniel-8b4527187/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://www.linkedin.com/in/claudio-antonio-0038b8194/' target='_blank' rel='noopener noreferrer'>
 						<LinkedinSquare />
 					</a>
 				</SideIcon>
 				<Line />
 			</LeftSideContainer>
 			<RightSideContainer>
-				<SideText>dannychukz15@gmail.com</SideText>
+				<SideText>claudio.antonio.cantonio@outlook.com</SideText>
 				<Line />
 			</RightSideContainer>
 		</>
