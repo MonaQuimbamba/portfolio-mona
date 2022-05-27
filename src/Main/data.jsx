@@ -24,19 +24,3 @@ export const dataExperience = {
 
     },
 };
-
-export const dataEducation = {
-    0: {
-        main: 'IUT Robert Schuman 🎓',
-        expand: 'DUT Informatique ',
-        date: '( setp 2018 / june 2020 )',
-        country: 'France/ Strasbourg',
-    },
-    1: {
-        main: 'La Rochelle université 🎓',
-        expand: 'L3 Informatique',
-        date: '( setp 2020 / june 2021 )',
-        country: 'France/ La Rochelle',
-    },
-
-};
