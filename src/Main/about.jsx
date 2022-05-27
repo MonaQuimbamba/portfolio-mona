@@ -137,21 +137,13 @@ const About = ({ aboutRef }) => {
 				<TextContainer>
 					<ParragraphDecoration>{'<p>'} </ParragraphDecoration>
 					<Text>
-					        I love breaking into stuff! I'm a Computer Software Engineer, Security Researcher, an aspiring Red-Teamer(love being offensive), 
-					    Open-source Enthusiast and a Student from Nigeria. I'm currently learning front-end web development, cyber-security and i have a kin interest for hacking.
-						I also go by the alias 'CrazyChickenDev'. I have a profound passion for programming, security researching and new technology. I love to learn new things and build
-						stuff. I studied computer engineering being that I've always loved computers, learning programming
-						started as a passion, then I decided to make the big step and move fully into programming.
+					        ...
 					</Text>
 					<ParragraphDecoration>{'</p>'} </ParragraphDecoration>
 					<br />
 					<ParragraphDecoration>{'<p>'} </ParragraphDecoration>
 					<Text>
-					        I enjoy creating things that live both on the internet and in reality, whether that be websites, applications, embedded systems
-					    or anything in between. I also love working and creating things with microcontrollers and implementing IoT in components, 
-						playing video games, designing gadgets and attending social events. My goal is to always build products that provide 
-						pixel-perfect, user-friendly, security efficient, performant experiences. Shortly after I graduated Highschool, 
-						I had been overly engrossed in the cyber-security space and the vast amount of knowledge it holds.
+					        ...
 					</Text>
 					<ParragraphDecoration>{'</p>'} </ParragraphDecoration>
 					<br />
@@ -159,11 +151,7 @@ const About = ({ aboutRef }) => {
 					<br />
 					<ParragraphDecoration>{'<p>'} </ParragraphDecoration>
 					<Text>
-					        I started by learning the basic principles of how computers are made, how they work and followed a lot of DIYs by occasionally 
-						visiting websites such as XDA Developers, Wired, The Verge, TechCrunch and Instructables. I loved the open-source community 
-						so I got into android development, C programming and embedded systems, a few stacks I also worked with later on when I got into 
-						college include Python, JavaScript, HTML & CSS, Node.js, and WordPress. I've also been able to work on a variety of other 
-						interesting and meaningful projects daily.
+					        ...
 					</Text>
 					<ParragraphDecoration>{'</p>'} </ParragraphDecoration>
 					<br />
@@ -171,8 +159,7 @@ const About = ({ aboutRef }) => {
 					<br />
 					<ParragraphDecoration>{'<p>'} </ParragraphDecoration>
 					<Text>
-					        I'm currently looking for new opportunities and I'm always open to new projects, ideas, job opportunities
-					    and new connections. I love building new stuff so just send me a message and I will reply 100%.
+					       ...
 					</Text>
 					<ParragraphDecoration>{'</p>'} </ParragraphDecoration>
 				</TextContainer>

@@ -75,45 +75,23 @@ const MobileContactInfo = ({ handleToast }) => {
 					<MoreHorizontal />
 				</ExpandIcon>
 				<SideIcon
-					initial={{ opacity: 0, x: -150 }}
-					variants={variants}
-					transition={bounceTransition}
-					animate={expandIcons ? 'show' : 'hidden1'}
-					whileTap={{ scale: 0.85 }}>
-					<a
-						href='https://drive.google.com/file/d/1iUdfXirmVZJ58RKBDNnUGVGnmKsH7cKB/view?usp=sharing'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<FilePdf />
-					</a>
-				</SideIcon>
-				<SideIcon
 					initial={{ opacity: 0, x: -300 }}
 					variants={variants}
 					transition={bounceTransition}
 					animate={expandIcons ? 'show' : 'hidden2'}
 					whileTap={{ scale: 0.85 }}>
-					<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+					<a href='https://github.com/MonaQuimbamba' target='_blank' rel='noopener noreferrer'>
 						<Github />
 					</a>
 				</SideIcon>
-				<SideIcon
-					initial={{ opacity: 0, x: -150 }}
-					variants={variants}
-					transition={bounceTransition}
-					animate={expandIcons ? 'show' : 'hidden3'}
-					whileTap={{ scale: 0.85 }}>
-					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
-						<Twitter />
-					</a>
-				</SideIcon>
+
 				<SideIcon
 					initial={{ opacity: 0, x: -150 }}
 					variants={variants}
 					transition={bounceTransition}
 					animate={expandIcons ? 'show' : 'hidden4'}
 					whileTap={{ scale: 0.85 }}>
-					<a href='https://www.linkedin.com/in/nwaobi-daniel-8b4527187/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://www.linkedin.com/in/claudio-antonio-0038b8194/' target='_blank' rel='noopener noreferrer'>
 						<LinkedinSquare />
 					</a>
 				</SideIcon>

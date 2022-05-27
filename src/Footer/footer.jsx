@@ -19,12 +19,7 @@ const Footer = () => {
 	return (
 		<Container>
 			<Text>
-				'My projects are powered by a lot of
-				<span role='img' aria-label='coffe'>
-					{'  '}
-					☕️
-				</span>
-				'
+				'...'
 			</Text>
 		</Container>
 	);
