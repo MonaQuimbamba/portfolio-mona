@@ -62,7 +62,7 @@ const Education = () => {
 			<SkillsColumn>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#JavaScript(ES6)
+						#Java
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
@@ -77,7 +77,7 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#NodeJs
+						#C
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
@@ -89,17 +89,17 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#CSS
+						#Shell Script
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#HTML5
+						#OPENMP
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#GatsbyJs
+						#MPI
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
@@ -107,16 +107,6 @@ const Education = () => {
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#SQL
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#ReactJs
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#Jekyll
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
