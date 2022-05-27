@@ -212,17 +212,17 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 						initial={{ y: -300, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						Nwaobi <span> Daniel</span>
+						Claudio  <span> ANTONIO</span>
 					</Title>
 					<SubTitle
 						initial={{ x: -300, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						I'm a <span>Cyber-Security Engineer</span> building and researching cool stuff.
+						I'm student on Master's degree in cryptos at Limoges université, specializing in cybersecurity and cryptology.
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
-							"I'm a self-taught cyber-security analyst, a computer software engineer by degree🎓 and an open-source enthusiast based in Benin City, Nigeria. I'm 22 years old and I like building(and designing) exceptional websites, applications, researching on security, hacking and everything in between.  I speak English 🇬🇧🇺🇸 fluently."
+							"  ... "
 						}
 					</Description>
 				</Intro>
