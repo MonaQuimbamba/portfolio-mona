@@ -73,7 +73,7 @@ function App() {
 		if (id === 'exp') return scrollToRef(expRef);
 		if (id === 'skills') return scrollToRef(skillsRef);
 		if (id === 'project') return scrollToRef(projectRef);
-		if (id === 'about') return scrollToRef(aboutRef);
+		//if (id === 'about') return scrollToRef(aboutRef);
 		return scrollToRef(heroRef);
 	};
 
@@ -103,7 +103,7 @@ function App() {
 					expRef={expRef}
 					skillsRef={skillsRef}
 					projectRef={projectRef}
-					aboutRef={aboutRef}
+				//	aboutRef={aboutRef}
 					handleToast={handleToast}
 					didScroll={didScroll}
 				/>

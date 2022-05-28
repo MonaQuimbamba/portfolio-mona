@@ -1,25 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/CrazyChickenDev/portfolio/blob/master/public/icon.png" width="100" />
-</div>
-<h1 align="center">
-  My Portfolio
-</h1>
-<p align="center">
-  The first iteration of <a href="https://nwaobidaniel.me" target="_blank">my Portfolio</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://netlify.com/" target="_blank">Netlify.</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/crazychickendev/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/5c07aa83-582b-478e-a9a6-7341eb0a9484/deploy-status" alt="Netlify Status" /> <img src="https://img.shields.io/github/license/CrazyChickenDev/MyPortfolio" alt="Licence" />
-  </a>
-</p>
-<div align="center">
-  <img alt="Demo" src="https://github.com/CrazyChickenDev/portfolio/blob/master/src/assets/demo.png" />
-</div>
-
-## 🍴Forking this repo
-
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_ so if you love it feel free to copy it and please give proper credits. If you have issues making use of this portfolio you can refer to [React docs](https://reactjs.org/docs/getting-started.html). Thanks!
-
 ## 🛠Installation & Set Up
 
 1. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
