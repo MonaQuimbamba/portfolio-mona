@@ -78,17 +78,13 @@ const Sidebar = ({ handleToast }) => {
 					</a>
 				</SideIcon>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+					<a href='https://github.com/MonaQuimbamba' target='_blank' rel='noopener noreferrer'>
 						<Github />
 					</a>
 				</SideIcon>
+			
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
-						<Twitter />
-					</a>
-				</SideIcon>
-				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<a href='https://www.linkedin.com/in/nwaobi-daniel-8b4527187/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://www.linkedin.com/in/claudio-antonio-0038b8194/?original_referer=https%3A%2F%2Fclaudio-a.netlify.app%2F' target='_blank' rel='noopener noreferrer'>
 						<LinkedinSquare />
 					</a>
 				</SideIcon>
