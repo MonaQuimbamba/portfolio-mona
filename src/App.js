@@ -24,7 +24,7 @@ function App() {
 	const expRef = useRef(null);
 	const skillsRef = useRef(null);
 	const projectRef = useRef(null);
-	const aboutRef = useRef(null);
+	//const aboutRef = useRef(null);
 
 	useEffect(() => {
 		try {
@@ -98,6 +98,7 @@ function App() {
 				<Sidebar handleToast={handleToast} />
 				<MobileContactInfo handleToast={handleToast} />
 				<Notification toast={toast} />
+
 				<Main
 					heroRef={heroRef}
 					expRef={expRef}

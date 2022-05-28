@@ -12,7 +12,7 @@ const Main = ({ didScroll, handleToast, heroRef, expRef, skillsRef, projectRef, 
 			<Experience expRef={expRef} />
 			<Skills skillsRef={skillsRef} />
 			<Projects projectRef={projectRef} />
-			<About aboutRef={aboutRef} />
+			//<About aboutRef={aboutRef} />
 		</>
 	);
 };
