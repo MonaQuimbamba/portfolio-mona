@@ -24,7 +24,7 @@ function App() {
 	const expRef = useRef(null);
 	const skillsRef = useRef(null);
 	const projectRef = useRef(null);
-	//const aboutRef = useRef(null);
+	const aboutRef = useRef(null);
 
 	useEffect(() => {
 		try {
@@ -73,7 +73,7 @@ function App() {
 		if (id === 'exp') return scrollToRef(expRef);
 		if (id === 'skills') return scrollToRef(skillsRef);
 		if (id === 'project') return scrollToRef(projectRef);
-		//if (id === 'about') return scrollToRef(aboutRef);
+		if (id === 'about') return scrollToRef(aboutRef);
 		return scrollToRef(heroRef);
 	};
 
@@ -98,13 +98,12 @@ function App() {
 				<Sidebar handleToast={handleToast} />
 				<MobileContactInfo handleToast={handleToast} />
 				<Notification toast={toast} />
-
 				<Main
 					heroRef={heroRef}
 					expRef={expRef}
 					skillsRef={skillsRef}
 					projectRef={projectRef}
-				//	aboutRef={aboutRef}
+					aboutRef={aboutRef}
 					handleToast={handleToast}
 					didScroll={didScroll}
 				/>
