@@ -82,8 +82,9 @@ const NavbarHeader = ({ isSafari, handleScroll, scrollProgress }) => {
 	return (
 		<HeaderContainer>
 			<Header isSafari={isSafari} scroll={scrollProgress}>
+
 				<HeaderTextContainer id='intro' onClick={handleScroll}>
-					<HeaderText>Intro</HeaderText>
+					<HeaderText>About me</HeaderText>
 				</HeaderTextContainer>
 				<HeaderLine />
 				<HeaderTextContainer id='exp' onClick={handleScroll}>
@@ -96,10 +97,6 @@ const NavbarHeader = ({ isSafari, handleScroll, scrollProgress }) => {
 				<HeaderLine />
 				<HeaderTextContainer id='project' onClick={handleScroll}>
 					<HeaderText>Projects</HeaderText>
-				</HeaderTextContainer>
-				<HeaderLine />
-				<HeaderTextContainer id='about' onClick={handleScroll}>
-					<HeaderText>About</HeaderText>
 				</HeaderTextContainer>
 			</Header>
 		</HeaderContainer>
