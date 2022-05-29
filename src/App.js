@@ -3,10 +3,8 @@ import styled from 'styled-components';
 import { InitializeAnalytics } from './utils/analytics';
 import Theme from './Theme';
 import Header from './Header/navbar-header';
-import Sidebar from './Sidebar/sidebar';
-import MobileContactInfo from './Sidebar/mobile-contact-info';
 import Main from './Main/main';
-import Notification from './Notification/notification';
+
 
 
 const AppContainer = styled.div`
@@ -94,9 +92,6 @@ function App() {
 					handleScroll={handleScroll}
 					setDidScroll={setDidScroll}
 				/>
-			{/*	<Sidebar handleToast={handleToast} /> */}
-			{/*<MobileContactInfo handleToast={handleToast} /> */}
-			{/*	 <Notification toast={toast} /> */}
 				<Main
 					heroRef={heroRef}
 					expRef={expRef}
