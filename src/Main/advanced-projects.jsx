@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import Passwordlist from '../assets/passlist.png';
-import GraphicalPasswordStrategy from '../assets/Upcoming.png';
-import Keylogger from '../assets/Keylogger.png';
-import SafeFolderApp from '../assets/Upcoming.png';
+import Passwordlist from '../assets/rsa.png';
+import nearNeighbor from '../assets/Nearestneighbor.gif';
+import ipv62ipv4 from '../assets/ipv62ipv4.png';
+import stegano from '../assets/stega.png';
 import BFPasswordCracker from '../assets/Upcoming.png';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
@@ -188,67 +188,65 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={Passwordlist} alt='passlist.png' />
+						<Img src={Passwordlist} alt='rsa.png' />
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>Passwordlist-Generator</Title>
+						<Title>Prime Breaker</Title>
 						<Description>
-						A simple python program that takes in a collection of data given to it, then generates possible password 
-						combinations that can be gotten from those details that were fed into it. This program was created for 
-						educational purposes and as a security research tool.
+						Program that uses GPGPU to factorize, test if a number is
+						prime and, of course, decompose this same
+						number into prime factors, we use CUDA to do the parallelism.
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Python
+								<Hastag>#</Hastag>C++
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>VSCode
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Parrot OS
+								<Hastag>#</Hastag>GPGPU
 							</TechItems>
 						</Technology>
+
 						<Technology>
 							<TechItems>
 								<Hastag>#</Hastag>Linux OS
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Bash
+								<Hastag>#</Hastag>CUDA
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-						    <a href='https://github.com/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+						    <a href='https://github.com/MonaQuimbamba/Projet-GPU' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
 							</a>
-							<a href='https://github.io/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-							</a>
+
 						</ButtonContainer>
 					</Card>
 				</RightRow>
 			</Row>
+
+
+
 			<Row revert={true}>
 				<LeftRow text={true}>
 					<Card>
-						<Title>Keylogger</Title>
-						<Description>A simply built keylogger created using python on a linux distro(Parrot OS) and 
-							         used to record keystrokes made by users of the pc.
+						<Title>IPv6 translation ⟺ IPv4 thrus TCP protocol</Title>
+						<Description>
+						The goal of this program is to allow a machine using only the TCP/IPv6 stack to communicate with
+							machines in IPv4 transparently through the TCP protocol.
 						</Description>
 						<Technology>
 							<TechItems>
 								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Pynput
+								<Hastag>#</Hastag>Scapy
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>VSCode
+								<Hastag>#</Hastag>NetFilter
 							</TechItems>
 						</Technology>
 						<Technology>
@@ -256,64 +254,70 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Linux OS
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Bash
+								<Hastag>#</Hastag>Radvd
+							</TechItems>
+							<TechItems>
+								<Hastag>#</Hastag>NFQueue
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://github.com/CrazyChickenDev/My-Keylogger' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-							</a>
+						<a href='https://github.com/MonaQuimbamba/traducteur-IPv6-IPv4-pour-le-protocole-TCP/tree/claudio' target='_blank' rel='noopener noreferrer'>
+						<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+							<Github />
+						</Button>
+					</a>
 						</ButtonContainer>
 					</Card>
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={Keylogger} alt='Keylogger' />
+						<Img src={ipv62ipv4} alt='ipv62ipv4' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
+
+
+
+
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={SafeFolderApp} alt='SafeFolderApp' />
+						<Img src={stegano} alt='stegano' />
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>SafeFolder-App</Title>
+						<Title>Authentication, Secure Web and Steganography</Title>
 						<Description>
-						Description
+						In this project, we are building a web server that acts
+						as a CA, it will issue certificates and verify
+						the authentication of certificates.
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Openssl
+							</TechItems>
+
+							<TechItems>
+								<Hastag>#</Hastag>Framework bottle
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Framework
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>OS
+								<Hastag>#</Hastag>Linux OS
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
 							<a
-								href='https://github.com/CrazyChickenDev'
+								href='https://github.com/MonaQuimbamba/Authentification_Web_securise_Steganographie/tree/claudio'
 								target='_blank'
 								rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+								<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
 							</a>
-							<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-							</a>
+
 						</ButtonContainer>
 					</Card>
 				</RightRow>
@@ -321,48 +325,33 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row revert={true}>
 				<LeftRow text={true}>
 					<Card>
-						<Title>Graphical-Password Strategy</Title>
+						<Title>Genetic algorithm IA </Title>
 						<Description>
-						Description
+					 Use genetic algorithm to solve the Travelling salesman problem.
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Frameworks
-							</TechItems>
-						</Technology>
-						<Technology>
-							<TechItems>
-								<Hastag>#</Hastag>Library
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag> OS
+								<Hastag>#</Hastag>Jupyter Notebook
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-						<a href='https://github.com/CrazyChickenDev'
+						<a href='https://github.com/MonaQuimbamba/Projet-IA/blob/Claudio/Algorithme-g%C3%A9n%C3%A9tique.ipynb'
 								target='_blank'
 								rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+								<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
 						</a>
-						<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<ExternalLinkOutline />
-								</Button>
-						</a>
+
 						</ButtonContainer>
 					</Card>
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={GraphicalPasswordStrategy} alt='GraphicalPasswordStrategy' />
+						<Img src={nearNeighbor} alt='nearNeighbor' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
@@ -381,7 +370,7 @@ const AdvancedProjects = ({ isMobile }) => {
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>BF Password Cracker</Title>
+						<Title>IPsec-protected L2TPv3 tunnel for VLAN connection operation</Title>
 						<Description>
 						Description
 						</Description>

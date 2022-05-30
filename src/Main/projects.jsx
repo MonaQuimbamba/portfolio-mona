@@ -153,7 +153,7 @@ const Projects = ({ projectRef }) => {
 							onClick={handleProjects}
 							id='security'>
 							{showAdvanced && <BackgroundButton layoutId='underline' />}
-							Cyber-Security
+							School
 						</Button>
 						<Button
 							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
@@ -161,7 +161,7 @@ const Projects = ({ projectRef }) => {
 							onClick={handleProjects}
 							id='projects'>
 							{!showAdvanced && <BackgroundButton layoutId='underline' />}
-							Projects
+							Personnal
 						</Button>
 					</ButtonContainer>
 				</AnimateSharedLayout>
