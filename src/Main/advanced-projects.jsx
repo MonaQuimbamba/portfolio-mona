@@ -7,7 +7,7 @@ import ipv62ipv4 from '../assets/ipv62ipv4.png';
 import stegano from '../assets/stega.png';
 import BFPasswordCracker from '../assets/Upcoming.png';
 import { Github } from '@styled-icons/boxicons-logos';
-import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
+
 import BFPasswordCrackerVideo from '../assets/video.mov';
 
 const Container = styled(motion.div)`
