@@ -4,7 +4,7 @@ import { InitializeAnalytics } from './utils/analytics';
 import Theme from './Theme';
 import Header from './Header/navbar-header';
 import Main from './Main/main';
-
+import Notification from './Notification/notification';
 
 
 const AppContainer = styled.div`
@@ -15,7 +15,7 @@ const AppContainer = styled.div`
 function App() {
 	const [scrollProgress, setScrollProgress] = useState('20%');
 	const [didScroll, setDidScroll] = useState(false);
-
+const [toast, setToast] = useState([]);
 	const [isSafari, setIsSafari] = useState(false);
 
 	const heroRef = useRef(null);
@@ -92,6 +92,7 @@ function App() {
 					handleScroll={handleScroll}
 					setDidScroll={setDidScroll}
 				/>
+				<Notification toast={toast} />
 				<Main
 					heroRef={heroRef}
 					expRef={expRef}
