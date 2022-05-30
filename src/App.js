@@ -15,7 +15,7 @@ const AppContainer = styled.div`
 function App() {
 	const [scrollProgress, setScrollProgress] = useState('20%');
 	const [didScroll, setDidScroll] = useState(false);
-	const [toast, setToast] = useState([]);
+
 	const [isSafari, setIsSafari] = useState(false);
 
 	const heroRef = useRef(null);
