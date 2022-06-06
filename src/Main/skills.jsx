@@ -69,41 +69,7 @@ const EducationBox = styled(motion.div)`
 	}
 `;
 
-const ListContainer = styled.div`
-	width: 35%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: baseline;
-	height: 355px;
-	@media only screen and (max-width: 450px) {
-		height: auto;
-		width: 100%;
-	}
-`;
 
-const BodyList = styled(motion.ul)`
-	font-size: 16px;
-	letter-spacing: 2px;
-	list-style-type: none;
-	font-family: 'Titillium Web';
-	li {
-		cursor: pointer;
-		line-height: 65px;
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		@media only screen and (max-width: 450px) {
-			line-height: 45px;
-		}
-	}
-	@media only screen and (max-width: 450px) {
-		padding: 0;
-		margin: 0;
-		padding-left: 0.6em;
-		padding-top: 0.6em;
-	}
-`;
 
 const Skills = ({ skillsRef }) => {
 	return (
