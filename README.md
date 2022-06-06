@@ -35,6 +35,12 @@
    Credits to [Achiaga](https://github.com/Achiaga).
 
 
-to add
+
+nvm install 16.14.2
+npm install
+npm run build
+to add ob Jason
 ,
  "engines": { "node": "16.14.2" }
+
+npm start 
