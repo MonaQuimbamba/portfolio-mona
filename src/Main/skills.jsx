@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { dataEducation } from './data';
-import ItemEducationList from './item-education';
 import ListSkills from './list-skills';
 
 const Container = styled(motion.section)`
@@ -116,13 +114,6 @@ const Skills = ({ skillsRef }) => {
 			</Title>
 			<EducationBox>
 				<ListSkills />
-				<ListContainer>
-					<BodyList>
-						{Object.keys(dataEducation).map((item, key) => {
-							return <ItemEducationList item={item} index={key} key={key} />;
-						})}
-					</BodyList>
-				</ListContainer>
 			</EducationBox>
 		</Container>
 	);

@@ -59,6 +59,8 @@ const ColumnText = styled(motion.span)`
 const Education = () => {
 	return (
 		<Container>
+
+
 			<SkillsColumn>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
@@ -72,7 +74,7 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#Pentesting
+						#Android
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
@@ -81,6 +83,9 @@ const Education = () => {
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
+
+
+
 			<SkillsColumn>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
@@ -89,29 +94,44 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#Shell Script
+						#Network Programming
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#OPENMP
+						#OPENMP & MPI
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#MPI
+						#Cryptography
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
+
+
+
+
 			<SkillsColumn>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
-						#SQL
+						#SQL & PostgreSQL
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
 						#PHP
+					</ColumnText>
+				</TextContainer>
+				<TextContainer>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
+						#Symfony
+					</ColumnText>
+				</TextContainer>
+
+				<TextContainer>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
+						#Scapy
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
