@@ -62,6 +62,7 @@ const Line = styled.div`
 const ListContainer = styled(motion.div)`
 	width: 100%;
 	color: white;
+	
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;

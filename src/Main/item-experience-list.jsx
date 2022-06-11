@@ -15,6 +15,7 @@ const Item = styled(motion.li)`
 	border-radius: 5px;
 	color: ${(props) => (props.index === props.selected ? 'white' : '#ffffff8f')};
 	background: transparent;
+	
 	svg {
 		width: 15px;
 		padding-right: 0.5em;

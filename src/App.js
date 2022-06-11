@@ -8,7 +8,7 @@ import Notification from './Notification/notification';
 
 
 const AppContainer = styled.div`
-	background: #1e1e1e;
+	background: #6C8BC9;
 	font-family: 'Nunito', sans-serif;
 `;
 

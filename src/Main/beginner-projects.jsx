@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
-import Upcomming from '../assets/Upcoming.png';
+import Upcomming from '../assets/upcomm.png';
 
 
 const Container = styled(motion.div)`
@@ -213,7 +213,7 @@ const BeginnerProjects = () => {
 						</Technology>
 					</TextContainer>
 				</Card>
-				
+
 
 				<Card>
 					<Link

@@ -39,8 +39,9 @@
 nvm install 16.14.2
 npm install
 npm run build
+yarn add @styled-icons/evaicons-solid
 to add ob Jason
 ,
  "engines": { "node": "16.14.2" }
 
-npm start 
+npm start

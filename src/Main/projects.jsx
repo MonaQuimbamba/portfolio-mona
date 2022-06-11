@@ -87,8 +87,9 @@ const ButtonContainer = styled.div`
 
 const Button = styled(motion.h3)`
 	cursor: pointer;
-	text-transform: uppercase;
+
 	position: relative;
+		font-family: MS Gothic;
 	z-index: 2;
 	@media only screen and (max-width: 450px) {
 		font-size: 16px;

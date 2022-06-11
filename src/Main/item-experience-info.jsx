@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { dataExperience } from './data';
 
+
 const ExperienceInfo = styled(motion.div)`
 	width: 50%;
 	border: 2px solid #ffc200;
@@ -16,6 +17,8 @@ const ExperienceInfo = styled(motion.div)`
 		padding-bottom: 0;
 	}
 `;
+
+
 
 const Title = styled(motion.div)`
 	padding: 0 0.2em;
@@ -81,6 +84,8 @@ const ItemExperienceInfo = ({ selected }) => {
 					{dataExperience.info[selected].second && <Info>{dataExperience.info[selected].second}</Info>}
 					{dataExperience.info[selected].third && <Info>{dataExperience.info[selected].third}</Info>}
 				</ListInfo>
+
+
 			</Body>
 		</ExperienceInfo>
 	);

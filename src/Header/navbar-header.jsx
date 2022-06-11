@@ -11,7 +11,7 @@ const HeaderContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	font-family: 'Asap', sans-serif;
-	background: #1e1e1e;
+	background: #6C8BC9;
 	z-index: 9999;
 `;
 

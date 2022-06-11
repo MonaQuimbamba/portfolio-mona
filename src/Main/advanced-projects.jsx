@@ -5,10 +5,10 @@ import Passwordlist from '../assets/rsa.png';
 import nearNeighbor from '../assets/Nearestneighbor.gif';
 import ipv62ipv4 from '../assets/ipv62ipv4.png';
 import stegano from '../assets/stega.png';
-import BFPasswordCracker from '../assets/Upcoming.png';
+import BFPasswordCracker from '../assets/upcomm.png';
 import { Github } from '@styled-icons/boxicons-logos';
 
-import BFPasswordCrackerVideo from '../assets/video.mov';
+import BFPasswordCrackerVideo from '../assets/upcomm.png';
 
 const Container = styled(motion.div)`
 	padding-top: 2em;
@@ -359,13 +359,7 @@ const AdvancedProjects = ({ isMobile }) => {
 				<LeftRow text={false}>
 					<ImgContainer>
 						<Img src={BFPasswordCracker} alt='BFPasswordCracker' />
-						{!isMobile && (
-							<VideoContainer>
-								<video muted controls autoPlay loop>
-									<source src={BFPasswordCrackerVideo} type='video/mp4' />
-								</video>
-							</VideoContainer>
-						)}
+					
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
