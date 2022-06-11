@@ -8,7 +8,6 @@ import stegano from '../assets/stega.png';
 import BFPasswordCracker from '../assets/upcomm.png';
 import { Github } from '@styled-icons/boxicons-logos';
 
-import BFPasswordCrackerVideo from '../assets/upcomm.png';
 
 const Container = styled(motion.div)`
 	padding-top: 2em;
@@ -73,23 +72,7 @@ const ImgContainer = styled.div`
 	}
 `;
 
-const VideoContainer = styled.div`
-	position: absolute;
-	top: 19px;
-	left: 80px;
-	width: 200px;
-	height: 100px;
-	@media only screen and (max-width: 450px) {
-		top: 9px;
-		left: 39px;
-	}
-	video {
-		width: 395px;
-		@media only screen and (max-width: 450px) {
-			width: 186px;
-		}
-	}
-`;
+
 
 const Img = styled.img`
 	height: 100%;
@@ -359,7 +342,7 @@ const AdvancedProjects = ({ isMobile }) => {
 				<LeftRow text={false}>
 					<ImgContainer>
 						<Img src={BFPasswordCracker} alt='BFPasswordCracker' />
-					
+
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
