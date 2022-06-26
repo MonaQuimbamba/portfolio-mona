@@ -94,7 +94,7 @@ const ItemExperienceInfo = ({ selected }) => {
 					{dataExperience.info[selected].first && <Info>{dataExperience.info[selected].first}</Info>}
 					{dataExperience.info[selected].second && <Info>{dataExperience.info[selected].second}</Info>}
 					{dataExperience.info[selected].third && <Info>{dataExperience.info[selected].third}</Info>}
-					{	<a href={externalLink} target='_blank' rel='noopener noreferrer'>
+					{	<a href={"google.com"} target='_blank' rel='noopener noreferrer'>
 							<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 								<ExternalLinkOutline />
 							</Button>
