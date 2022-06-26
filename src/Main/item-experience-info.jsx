@@ -129,10 +129,11 @@ const ItemExperienceInfo = ({ selected }) => {
 					{dataExperience.info[selected].first && <Info>{dataExperience.info[selected].first}</Info>}
 					{dataExperience.info[selected].second && <Info>{dataExperience.info[selected].second}</Info>}
 					{dataExperience.info[selected].third && <Info>{dataExperience.info[selected].third}</Info>}
+					<Link
+						githubLink='https://github.com/MonaQuimbamba'
+					/>
 				</ListInfo>
-				<Link
-					githubLink='https://github.com/MonaQuimbamba'
-				/>
+
 			</Body>
 		</ExperienceInfo>
 	);
