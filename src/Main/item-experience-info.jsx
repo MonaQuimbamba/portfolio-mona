@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { dataExperience } from './data';
-import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
 
 const ExperienceInfo = styled(motion.div)`
@@ -70,24 +69,6 @@ const Info = styled.li`
 	}
 `;
 
-
-const LinkContainer = styled.div`
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 40px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	a {
-		color: white;
-		text-decoration: none;
-	}
-`;
-
-
 const Button = styled(motion.div)`
 	padding: 0.5em;
 	cursor: pointer;
@@ -97,22 +78,6 @@ const Button = styled(motion.div)`
 `;
 
 
-const Link = ({ githubLink, externalLink }) => {
-	return (
-		<LinkContainer>
-			<a href={githubLink} target='_blank' rel='noopener noreferrer'>
-				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-					<Github />
-				</Button>
-			</a>
-			<a href={externalLink} target='_blank' rel='noopener noreferrer'>
-				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-					<ExternalLinkOutline />
-				</Button>
-			</a>
-		</LinkContainer>
-	);
-};
 
 
 const ItemExperienceInfo = ({ selected }) => {
@@ -129,9 +94,12 @@ const ItemExperienceInfo = ({ selected }) => {
 					{dataExperience.info[selected].first && <Info>{dataExperience.info[selected].first}</Info>}
 					{dataExperience.info[selected].second && <Info>{dataExperience.info[selected].second}</Info>}
 					{dataExperience.info[selected].third && <Info>{dataExperience.info[selected].third}</Info>}
-					<Link
-						githubLink='https://github.com/MonaQuimbamba'
-					/>
+					{	<a href={externalLink} target='_blank' rel='noopener noreferrer'>
+							<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+								<ExternalLinkOutline />
+							</Button>
+						</a>}
+
 				</ListInfo>
 
 			</Body>
