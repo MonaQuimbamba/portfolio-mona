@@ -203,7 +203,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 		<Container ref={heroRef}>
 			<Content>
 				<Intro>
-					<FirstTitle>Hi! my name is</FirstTitle>
+					<FirstTitle>Hi! I'm</FirstTitle>
 					<Title
 						drag
 						dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
@@ -218,11 +218,11 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 						initial={{ x: -300, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						I'm student on Master's degree in cryptos at Limoges université, specializing in cybersecurity and cryptology.
+						a  master's student from Limoges université in France, cybersecurity and cryptology is my specialization.
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
-							"  ... "
+							" In this portfolio  I'm going to share with you some of my school and personal projects  , so in short  you can  reach me on claudio-a@outlook.fr"
 						}
 					</Description>
 				</Intro>
