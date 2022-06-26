@@ -12,7 +12,7 @@ export const dataExperience = {
         0: {
             link: 'https://engees.unistra.fr/',
             date: 'May 2020 - july  2020',
-            first: "At this internship I worked out with searchers of ENGEES  (École Nationale du Génie de l'Eau et de l'Environnement de Strasbourg) school (https://engees.unistra.fr/) in order to build up a web site for the  OFB(L'Office français de la biodiversité )  the main goal of this web site is to query and visualize environmental data from rivers in metropolitan France to allow searchers do theirs studies",
+            first: "At this internship I worked out with searchers of ENGEES  (École Nationale du Génie de l'Eau et de l'Environnement de Strasbourg)    school (https://engees.unistra.fr/),     in order to build up a web site for the  OFB  (L'Office français de la biodiversité ).    The main goal of this web site is to query and visualize environmental data from rivers in metropolitan France to allow searchers do theirs studies",
 
         },
         1: {
