@@ -186,25 +186,20 @@ const BeginnerProjects = () => {
 					</ImgContainer>
 					<TextContainer>
 						<Title>FetchRaw CTF tool</Title>
-						<Explanation>Description</Explanation>
+						<Explanation>Simple tool that can help you retrieve data from network packet on CTF for example</Explanation>
 						<Technology>
 							<TechItems>
 								<Hastag>Python</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Language
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Framework
+								<Hastag>Scapy</Hastag>tech
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
 								<Hastag>Linux</Hastag>OS
 							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>APi
-							</TechItems>
+
 						</Technology>
 					</TextContainer>
 				</Card>
