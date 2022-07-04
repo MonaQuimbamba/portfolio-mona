@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
 import Upcomming from '../assets/upcomm.png';
+import FetchRaw from '../assets/log.png';
 
 
 const Container = styled(motion.div)`
@@ -187,14 +188,14 @@ const BeginnerProjects = () => {
 						githubLink='https://github.com/MonaQuimbamba'
 					/>
 					<ImgContainer>
-						<Img src={Upcomming} alt='#' />
+						<Img src={FetchRaw} alt='#' />
 					</ImgContainer>
 					<TextContainer>
-						<Title>...</Title>
+						<Title>FetchRaw CTF tool</Title>
 						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>Python</Hastag>Language
 							</TechItems>
 							<TechItems>
 								<Hastag>#</Hastag>Language
@@ -205,7 +206,7 @@ const BeginnerProjects = () => {
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>OS
+								<Hastag>Linux</Hastag>OS
 							</TechItems>
 							<TechItems>
 								<Hastag>#</Hastag>APi
