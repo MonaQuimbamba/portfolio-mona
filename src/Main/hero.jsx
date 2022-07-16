@@ -222,9 +222,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
-							"I love to do CTF and pentest on public platform like bee-box or portswigger's labs. I am always learning."
-							"Currently I'm improving my skills on OSSTMM, OWASP and NIST Cybersecurity Framework vulnerabilities."
-					     "contact me if you have same interesting or some questions about on claudio-a@outlook.fr"
+							"I love to do CTF and pentest on public platform like bee-box or portswigger's labs. I am always learning.Currently I'm improving my skills on OSSTMM, OWASP and NIST Cybersecurity Framework vulnerabilities.contact me if you have same interesting or some questions about on claudio-a@outlook.fr"
 						}
 					</Description>
 				</Intro>
