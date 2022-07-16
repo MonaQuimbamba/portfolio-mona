@@ -218,7 +218,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 						initial={{ x: -300, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						a  master's student from Limoges université in France 🇫🇷, I do  cybersecurity and cryptology by specialization.
+						a  master's student from Limoges université in France , I do  cybersecurity and cryptology by specialization.
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
