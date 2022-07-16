@@ -218,11 +218,12 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 						initial={{ x: -300, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						transition={{ duration: 1 }}>
-						a  master's student from Limoges université in France, cybersecurity and cryptology is my specialization.
+						a  master's student from Limoges université in France 🇫🇷, I do  cybersecurity and cryptology by specialization.
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
-							" In this portfolio  I'm going to share with you some of my school and personal projects  , so in short  you can  reach me on claudio-a@outlook.fr"
+							"  I love to do CTF and pentest on public platform like bee-box or portswigger's labs. 						I am always learning. Currently I'm improving my skills on OSSTMM, OWASP and NIST Cybersecurity Framework vulnerabilities.
+							 contact me if you have same interesting or some questions about on claudio-a@outlook.fr"
 						}
 					</Description>
 				</Intro>
