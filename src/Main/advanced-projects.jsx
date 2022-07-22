@@ -244,7 +244,7 @@ const AdvancedProjects = ({ isMobile }) => {
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-						<a href='https://github.com/MonaQuimbamba/traducteur-IPv6-IPv4-pour-le-protocole-TCP/tree/claudio' target='_blank' rel='noopener noreferrer'>
+						<a href='https://github.com/MonaQuimbamba/traducteur-IPv6-IPv4-pour-le-protocole-TCP/tree/main' target='_blank' rel='noopener noreferrer'>
 						<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 							<Github />
 						</Button>
@@ -293,7 +293,7 @@ const AdvancedProjects = ({ isMobile }) => {
 						</Technology>
 						<ButtonContainer>
 							<a
-								href='https://github.com/MonaQuimbamba/Authentification_Web_securise_Steganographie/tree/claudio'
+								href='https://github.com/MonaQuimbamba/Authentification_Web_securise_Steganographie/tree/main'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
