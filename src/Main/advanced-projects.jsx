@@ -5,7 +5,7 @@ import Passwordlist from '../assets/rsa.png';
 import nearNeighbor from '../assets/Nearestneighbor.gif';
 import ipv62ipv4 from '../assets/ipv62ipv4.png';
 import stegano from '../assets/stega.png';
-import BFPasswordCracker from '../assets/upcomm.png';
+import infra from '../assets/infra.png';
 import { Github } from '@styled-icons/boxicons-logos';
 
 
@@ -341,7 +341,7 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={BFPasswordCracker} alt='BFPasswordCracker' />
+						<Img src={infra} alt='infra' />
 
 					</ImgContainer>
 				</LeftRow>
@@ -349,22 +349,34 @@ const AdvancedProjects = ({ isMobile }) => {
 					<Card>
 						<Title>IPsec-protected L2TPv3 tunnel for VLAN connection operation</Title>
 						<Description>
-						Description
+						IPsec-secured L2TPv3 tunnel for implementing VLAN trunking Comparison with VXLANs
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Shell
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Framework
+								<Hastag>#</Hastag>Network namespace Linux
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>OS
+								<Hastag>#</Hastag>OS Linux
 							</TechItems>
 						</Technology>
+
+						<ButtonContainer>
+						<a href='https://github.com/jeo284/Projet-Infrastructure-Reseau'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -1, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+									<Github />
+								</Button>
+						</a>
+
+						</ButtonContainer>
+
 					</Card>
 				</RightRow>
 			</Row>
