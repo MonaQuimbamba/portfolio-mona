@@ -218,21 +218,21 @@ const BeginnerProjects = () => {
 						<Explanation>Build Digispark USB as a Hack tool which steal passwords that are stored on chrome browser</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Arduino IDE
+								<Hastag>Arduino IDE</Hastag>
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Reverse shell
+								<Hastag>Reverse shell</Hastag>
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Google Chrome
+								<Hastag>Google Chrome Browser</Hastag>
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Shell script
+								<Hastag>Shell script</Hastag>
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Linux OS
+								<Hastag>Linux OS</Hastag>
 							</TechItems>
 						</Technology>
 					</TextContainer>
