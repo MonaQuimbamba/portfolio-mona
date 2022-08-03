@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
+import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
 import Upcomming from '../assets/upcomm.png';
 import FetchRaw from '../assets/log.png';
 import Digispark from '../assets/digis.jpeg';
@@ -164,6 +165,11 @@ const Link = ({ githubLink, externalLink }) => {
 			<a href={githubLink} target='_blank' rel='noopener noreferrer'>
 				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 					<Github />
+				</Button>
+			</a>
+			<a href={externalLink} target='_blank' rel='noopener noreferrer'>
+				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+					<ExternalLinkOutline />
 				</Button>
 			</a>
 		</LinkContainer>
