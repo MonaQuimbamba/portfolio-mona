@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
 import Upcomming from '../assets/upcomm.png';
 import FetchRaw from '../assets/log.png';
+import Digispark from '../assets/digis.jpeg';
 
 
 const Container = styled(motion.div)`
@@ -207,34 +208,31 @@ const BeginnerProjects = () => {
 
 				<Card>
 					<Link
-						githubLink='https://github.com/MonaQuimbamba'
+						externalLink='https://www.youtube.com/watch?v=fMI4Li7GBQE'
 					/>
 					<ImgContainer>
-						<Img src={Upcomming}  />
+						<Img src={Digispark}  />
 					</ImgContainer>
 					<TextContainer>
-						<Title>...</Title>
-						<Explanation>Description</Explanation>
+						<Title>Digispark USB  as a Hack tool</Title>
+						<Explanation>Build Digispark USB as a Hack tool which steal passwords that are stored on chrome browser</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Arduino IDE
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Reverse shell
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Framework
-							</TechItems>
-							<TechItems>
-								<Hastag>#</Hastag>Api
+								<Hastag>#</Hastag>Google Chrome
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Language
+								<Hastag>#</Hastag>Shell script
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>OS
+								<Hastag>#</Hastag>Linux OS
 							</TechItems>
 						</Technology>
 					</TextContainer>
