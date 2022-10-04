@@ -186,7 +186,7 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://tryhackme.com/badge/244360'
+						githubLink='https://github.com/MonaQuimbamba/fetchRaw'
 					/>
 					<ImgContainer>
 						<Img src={FetchRaw} alt='#' />
